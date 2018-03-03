@@ -14,9 +14,10 @@
 #   limitations under the License.
 
 # Export variables for DragonTC
+export DRAGONTC_VERSION := 7.0
 export LLVM_PREBUILTS_VERSION := 7.0
 export LLVM_PREBUILTS_BASE := prebuilts/clang/host
-export LLVM_PREBUILTS_PATH := $(LLVM_PREBUILTS_BASE)/$(BUILD_OS)-x86/$(DRAGONTC_VERSION)/bin
+export LLVM_PREBUILTS_PATH := $(LLVM_PREBUILTS_BASE)/$(BUILD_OS)-x86/7.0/bin
 export CLANG := $(LLVM_PREBUILTS_PATH)/clang$(BUILD_EXECUTABLE_SUFFIX)
 export CLANG_CXX := $(LLVM_PREBUILTS_PATH)/clang++$(BUILD_EXECUTABLE_SUFFIX)
 export LLVM_AS := $(LLVM_PREBUILTS_PATH)/llvm-as$(BUILD_EXECUTABLE_SUFFIX)
